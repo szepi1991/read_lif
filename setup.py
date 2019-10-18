@@ -22,6 +22,6 @@ setup(
     author_email='yangyushi1992@icloud.com',  # Optional
     packages=["read_lif"],
     package_dir={'read_lif': 'read_lif'},
-    install_requires=['numpy'],
+    install_requires=['numexpr', 'numpy'],
     python_requires='>=2.5'
 )
